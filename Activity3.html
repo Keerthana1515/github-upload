@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Activity3</title>
+    </head>
+        <body><center>
+            <style>
+                .required {
+                          color: red;
+                }
+                .heading {
+                    font-style: italic;
+                }
+                for {
+                    display: inline-block;
+                }
+                .list {
+                    padding-left: 130px;
+                
+                }
+                .myDiv4 {
+                   margin: 30px;
+                   height: 0px;
+                }
+                .myDiv5 {
+                    margin: 0px;
+                    height: 0px;
+                  }
+            </style>
+            <table border="2" style="width:500">
+
+                <tr style=background-color:#3c73c6;>
+                    
+                    <th> <div class="myDiv4">
+                        <h2><b style="color: #dfdfdf;">Player Details</b></h2>
+                    </div>  </th> 
+                </tr>
+                <td border="5" style=background-color:#87CEEB;>
+                <div class="list">
+                        <form action="/action_page.php" autocomplete="on"><br>
+                        <label for="name" class="heading">Name<span class="required">*</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input class="heading" type="text" id="name" name="name" placeholder="Enter Your Name"> </label><br><br>
+                        <label for="dob" class="heading">DOB<span class="required">*</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="text" id="dob" name="dob" placeholder="DD/MM/YYYY"></label><br><br>
+                        <label for="age" class="heading">Age<span class="required">*</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="text" id="age" name="age" placeholder="Enter Your Age"> </label><br><br>
+                        <label for="email" class="heading">Email Id<span class="required">*</span>&nbsp&nbsp&nbsp&nbsp&nbsp    
+                        <input type="text" id="email" name="email" placeholder="abc12@xyz.com"> </label><br><br>
+                        <label for="country" class="heading">Country<span class="required">*</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="text" id="country" name="country" placeholder="India"> </label><br><br>
+                        <label for="skills" class="heading">Skills<span class="required">*</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="checkbox" id="s1" name="s1" placeholder=""> </label>
+                        <label for="s1"><b>Batting</b> </label>
+                        <input type="checkbox" id="s2" name="s2" value="">
+                        <label for="s2"><b>Bowling</b></label><br><br>
+                        <label for="batstyle" class="heading">Bat Style   </label>&nbsp&nbsp&nbsp&nbsp
+                        <input type="radio" id="bas1" name="bas1" value="Right Handed">
+                        <label for="bas1"><b>Right Handed</b></label>
+                        <input type="radio" id="bas2" name="bas2" value="Left Handed">
+                        <label for="bas2"><b>Left Handed</b></label><br><br>
+                        <label for="batstyle" class="heading">Bowl Style</label>&nbsp&nbsp
+                        <input type="radio" id="bos1" name="bos1" value="Right Handed">
+                        <label for="bos1"><b>Right Handed</b></label>
+                        <input type="radio" id="bos2" name="bos2" value="Left Handed">
+                        <label for="bos2"><b>Left Handed</b></label><br><br>
+                        <label for="matches" class="heading">Matches<span class="required">*</span></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="text" id="match" name="match" placeholder="Matches Played"><br><br>
+                        <label for="runs" class="heading">Runs<span class="required">*</span></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="text" id="runs" name="runs" placeholder="Total runs scored"><br><br>
+                        <label for="wickets" class="heading">Wickets<span class="required">*</span></label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="text" id="wickets" name="wickets" placeholder="Wickets"><br><br><br>
+                        <div class="myDiv5">
+                        <label for="achieve" class="heading">Achievements</label>
+                        </div>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <textarea id="achieve" name="achieve" placeholder= "Your Achievements in Cricket" rows="4" cols="22"></textarea><br><br>
+                    </form>
+                </div>
+                
+                </td>
+
+                <tr style=background-color:#3c40c6;>
+                 <td><center>
+                    <button type="submit" value="Submit">Submit</button>
+                    <button type="reset" value="Reset">Reset</button>
+                </center>
+                </td>
+                </tr>
+
+            </table></center>
+        </body>
+</html>
