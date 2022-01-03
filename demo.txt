@@ -1,0 +1,16 @@
+class Vehcile{
+
+    displaycolor(){
+        console.log('White Color');
+    }
+}
+class Car extends Vehcile{
+    displayengine(){
+        console.log("Car HAS = A Engine");
+    }
+}
+
+const c1=new Car();
+c1.displaycolor();
+c1.displayengine();
+
